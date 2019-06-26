@@ -15,3 +15,10 @@ analyze the reviews with popular text mining and machine learning strategies. Tw
 questions were addressed – 1) does sentiment seem to show any predictive strength when evaluating
 star rating? and 2) Can star rating being predicting using machine learning on its corresponding text
 review?
+
+
+RESULTS/RECOMMENDATIONS
+
+Sentiment did show some correlation with ratings, but the ranges were so large and vocabulary so variable that it was not a strong indicator of rating score (sometimes people use good language when giving a poor review, and visa versa). 
+Multinormial Naive Bayes algorithm was the best at predicting 1-star reviews (88% accuracy). 
+Bernoulli Naive Bayes performed the best on the extremes (80% accuracy at ratings 1star and 5star) which are the most insightful for businesses. Recommended model for business use.
